@@ -1,0 +1,15 @@
+[package]
+name = "shaSum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10.8"
+
+[[bin]]
+name = "sha256Sum"
+path = "src/sha256Sum.rs"
+
+[[bin]]
+name = "sha512Sum"
+path = "src/sha512Sum.rs"

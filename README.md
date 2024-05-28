@@ -1,0 +1,2 @@
+# shaSum
+命令sha256Sum和Sha512Sum的rust实现
